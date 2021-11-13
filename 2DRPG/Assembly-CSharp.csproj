@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/CameraMovement.cs" />
+     <Compile Include="Assets/Scripts/RoomMove.cs" />
      <Compile Include="Assets/Scripts/PlayerMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/toni/Unity/Hub/Editor/2021.1.28f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -264,6 +266,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>/home/toni/Unity/Hub/Editor/2021.1.28f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+        <HintPath>/home/toni/Documents/GitHub/2DRPG/2DRPG/Library/PackageCache/com.unity.cinemachine@2.7.9/Runtime/ThirdParty/clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/home/toni/Documents/GitHub/2DRPG/2DRPG/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -681,6 +686,12 @@
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
         <HintPath>/home/toni/Documents/GitHub/2DRPG/2DRPG/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/home/toni/Documents/GitHub/2DRPG/2DRPG/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/home/toni/Documents/GitHub/2DRPG/2DRPG/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
         <HintPath>/home/toni/Documents/GitHub/2DRPG/2DRPG/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
